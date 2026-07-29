@@ -156,7 +156,7 @@ int GetQuestionNumber(enQuizLvl Lvl) // number want to calculate
         return GenerateRandomNumberInRange(101, 1000);
     case MIXLVL:
     default:
-        return GenerateRandomNumberInRange(1, 10);
+        return GenerateRandomNumberInRange(1, 1000);
         break;
     }
 }
